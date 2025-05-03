@@ -1,0 +1,7 @@
+fastapi @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_fastapi_1742822207/work
+fastapi-cli @ file:///home/conda/feedstock_root/build_artifacts/fastapi-cli_1734302308128/work
+numpy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_f2amvjkczw/croot/numpy_and_numpy_base_1725470317860/work/dist/numpy-2.0.1-cp311-cp311-macosx_11_0_arm64.whl#sha256=1faed35ced6c9bbc9c345982a6f5c2ad89fc0b526315b56fc2cdb4b4ec6f9c42
+pandas @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_4aifrweohv/croot/pandas_1732735109535/work/dist/pandas-2.2.3-cp311-cp311-macosx_11_0_arm64.whl#sha256=da1b15a6c44417bf569e7bf374212fb55584fd9af1b0e93fcf861027f70b517e
+scikit-learn @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_2coq3750ge/croot/scikit-learn_1737988773864/work
+scipy @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_cc_7w74fto/croot/scipy_1743153255057/work/dist/scipy-1.15.2-cp311-cp311-macosx_11_0_arm64.whl#sha256=d4195a2fc0e73893d720ae2082bacfaffbe7d870613a21aff44a2d207ac0efc2
+uvicorn @ file:///home/conda/feedstock_root/build_artifacts/uvicorn_1745173431065/work
