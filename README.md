@@ -1,4 +1,4 @@
-Movie Recommendation Project
+
 # 🎬 Movie Recommendation System
 
 A full-stack content-based movie recommendation system built using Python (FastAPI backend) and React.js (frontend).  
