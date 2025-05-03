@@ -1,0 +1,31 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import sys
+import ast
+
+# Load datasets
+movies = pd.read_csv("tmdb/tmdb_5000_movies.csv")
+credits = pd.read_csv("tmdb/tmdb_5000_credits.csv")
+
+#COMMBINING DATASETS
+# Rename 'movie_id' in credits to 'id' to match movies dataset
+credits.rename(columns={"movie_id": "id"}, inplace=True)
+
+# Merge datasets on 'id'
+df = movies.merge(credits, on="id")
+
+
+# BUDEGET VS POPULARITY
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df, x="budget", y="popularity", alpha=0.7)
+
+# Improve readability
+plt.xscale("log")  # Log scale for budget (since some budgets are very large)
+plt.xlabel("Budget ($, Log Scale)")
+plt.ylabel("Popularity")
+plt.title("Movie Budget vs. Popularity")
+plt.grid(True)
+
+# Show plot
+plt.show()
