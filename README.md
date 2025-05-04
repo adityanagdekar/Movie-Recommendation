@@ -72,18 +72,21 @@ movie-recommender/
 ## 🔧 How to Run
 
 ### 🐍 Backend (FastAPI)
-
+```text
 cd backend
 conda create -n movie-recs python=3.10
 conda activate movie-recs
 pip install -r requirements.txt
 uvicorn recommender_api:app --reload
+```
 
 ---
 ### ⚛️ Frontend (React)
+```text
 cd frontend
 npm install
 npm run dev
+```
 
 ---
 🖼 Sample Demo
