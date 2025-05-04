@@ -58,7 +58,7 @@ movie-recommender/
 │   ├── rec_system.py              # Possibly separate logic (Word2Vec, TF-IDF, etc.)
 │   ├── requirements.txt           # 🔥 Environment dependencies
 │   ├── movie-recommender.ipynb    # Original prototype
-│   └── archive/                   # Older/notebook artifacts
+│   └── archive/                   # movie data-set
 ├── frontend/
 │   ├── src/                       # React components
 │   ├── public/
